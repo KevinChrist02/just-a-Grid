@@ -8,9 +8,7 @@ html{
   font-style: normal;
   color: white;
   font-size: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .box1 {
@@ -39,8 +37,8 @@ html{
 .container {
   height: 50vh;
   width: 80vh;
-
   margin: auto;
+  padding: 0 30px;
   display: grid;
   grid-template: 25% 25% 25%/ 50% 1fr 1fr;
   gap: 12px;
